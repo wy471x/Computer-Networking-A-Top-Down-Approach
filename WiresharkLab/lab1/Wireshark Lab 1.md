@@ -1,4 +1,4 @@
-##Wireshark Lab 1
+## Wireshark Lab 1
 
 ### 1. 获取并运行wireshark软件
 
@@ -6,11 +6,11 @@
 
 安装后运行界面如下：
 
-![1587562736736](C:\Users\admin\Desktop\1587562736736.png)
+![Inital](C:\Users\admin\Desktop\杂项\CN\WiresharkLab\lab1\Inital.png)
 
 ### 2. 数据包捕获界面解析
 
-![批注 2020-04-22 214754](C:\Users\admin\Desktop\批注 2020-04-22 214754.png)
+![GUI](C:\Users\admin\Desktop\杂项\CN\WiresharkLab\lab1\GUI.png)
 
 This looks more interesting! The Wireshark interface has five major components:
 
@@ -36,19 +36,19 @@ This looks more interesting! The Wireshark interface has five major components:
 
 5. 当wireshark运行时，在浏览器地址栏输入http://gaia.cs.umass.edu/wireshark-labs/INTRO-wireshark-file1.html，随后会出现一个结果页面；此时，wireshark已经对该http请求数据包和应答数据包进行的捕获。
 
-   ![1587565024705](C:\Users\admin\Desktop\1587565024705.png)
+   ![HomePage](C:\Users\admin\Desktop\杂项\CN\WiresharkLab\lab1\HomePage.png)
 
 6. 若想要在wireshark界面直接对http数据包进行分析，可以通过上方的过滤器进行过滤。
 
-   ![1587565069249](C:\Users\admin\Desktop\1587565069249.png)
+   ![filter](C:\Users\admin\Desktop\杂项\CN\WiresharkLab\lab1\filter.png)
 
 7. 选中信息栏中 为GET /wireshark-labs/INTRO-wireshark-file1.html HTTP/1.1的数据包。
 
-   ![1587565102370](C:\Users\admin\Desktop\1587565102370.png)
+   ![GET](C:\Users\admin\Desktop\杂项\CN\WiresharkLab\lab1\GET.png)
 
 8. 通过在中间的数据包头窗口查看细节信息，每个信息都可通过`>`符号来进行细节的查看。
 
-   ![1587565140059](C:\Users\admin\Desktop\1587565140059.png)
+   ![Details](C:\Users\admin\Desktop\杂项\CN\WiresharkLab\lab1\Details.png)
 
 9. 如果需要进行保存则可对其进行保存后，再进行退出操作。
 
